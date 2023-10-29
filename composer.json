@@ -1,0 +1,20 @@
+{
+    "name": "penguin/log",
+    "autoload": {
+        "psr-4": {
+            "Penguin\\Component\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "thuanvp012van",
+            "email": "thuanvp012van@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "^3.4",
+        "penguin/config": "dev-main",
+        "penguin/container": "dev-main"
+    }
+}
